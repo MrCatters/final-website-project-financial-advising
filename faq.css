@@ -11,7 +11,7 @@
 }
 
 /* Sets the formatting of the header on top of the image. */
-.top-picture>span {
+.top-picture > span {
   color: white;
   font-size: 60px;
   font-weight: 700;
@@ -19,53 +19,13 @@
 }
 
 /* Styles the dropdown wrapper. */
-.dropdown {
+ #accordion-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
+  justify-content: center;
+  align-content: center;
 }
 
-/* Hides the content of the dropdown until the user selects it */
-.dropdown> :nth-child(2n) {
-  display: none;
-  position: absolute;
-  border-bottom: 2px solid #000000;
-  width: 650px;
-  padding: 30px;
+#accordian div {
+  max-width: 40em;
 }
 
-/* Changes the style of each dropdown */
-.dropdown> :nth-child(odd) {
-  display: flex;
-  border-bottom: 1px solid #605e5e;
-  width: 650px;
-  padding: 30px;
-  cursor: pointer;
-}
-
-/*Modifies the dropdown chevron*/
-.dropdown> :nth-child(odd)>img {
-  width: 20px;
-  display: inline-block;
-  margin-left: auto;
-}
-
-/* Darkens the dropdown when hovering over it */
-.dropdown> :nth-child(odd):hover {
-  background-color: #e4e4e4;
-}
-
-/* When JS adds the active class, the dropdown is shown */
-.dropdown> :nth-child(odd).active+span {
-  display: block;
-  position: relative;
-  width: 650px;
-
-}
-
-/* When JS adds the active class, the chevron is rotated */
-.dropdown> :nth-child(odd).active>img {
-  transform: rotate(0.5turn);
-  transition: .25s;
-}
