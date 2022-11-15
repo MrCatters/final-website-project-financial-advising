@@ -1,0 +1,122 @@
+/* The first section of the page */
+/* Handshake image on left.*/
+.hand-shake-image {
+    grid-column: 2 / 6;
+    grid-row: 1 / span 6;
+}
+
+/* Modifies the image to fit around its container */
+.hand-shake-image>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Italicizes the quote.*/
+.statistics>span:nth-child(2) {
+    grid-column: 7 / span 7;
+    grid-row: 1 / span 6;
+    font-size: 30px;
+    font-style: italic;
+    align-self: center;
+}
+
+/* The source link for the quote.*/
+.statistics>a:nth-child(3) {
+    grid-column: 7;
+    grid-row: 5;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+
+
+
+/* The second section of the page talking about philosophy. */
+/* The header of the section */
+.philosophy>span:nth-child(1) {
+    grid-column: 2 / span 4;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* The first paragraph of the section */
+.philosophy>span:nth-child(2) {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top: 20px;
+}
+
+/* The second paragraph of the section */
+.philosophy>span:nth-child(3) {
+    grid-column: 2 / span 4;
+    grid-row: 3;
+    margin-top: 20px;
+}
+
+/* The financial goals image */
+.financial-goals-image {
+    grid-column: 7 / 12;
+    grid-row: 1 / 8;
+}
+
+/* Modifies the image to fit around its container */
+.financial-goals-image>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* The third section of the page talking about the process. */
+/* Sets the first span as the title.*/
+.process-flex > span:nth-child(1) {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Create a flex container that acts as a wrapper for each individual process step. */
+.process-containers-flex {
+    display: flex;
+    row-gap: 1ch;
+    column-gap: 1ch;
+    justify-content: center;
+}
+
+/* Styles the individual process steps. */
+.process-container {
+    display: grid;
+    width: 25vw;
+    min-width: 180px;
+    max-width: 300px;
+    height: 200px;
+    background-color: #2487c5;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+/* Places the image first in the grid. */
+.process-container > img:nth-child(1) {
+    grid-row: 2;
+}
+
+/* Places the number in the middle. */
+.process-container > span:nth-child(2) {
+    grid-row: 3;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Places the text last. */
+.process-container > span:nth-child(3) {
+    grid-row: 4;
+    font-size: 20px;
+}
