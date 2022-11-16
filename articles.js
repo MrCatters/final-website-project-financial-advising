@@ -4,5 +4,10 @@ $(document).ready(function () {
     document.getElementById("view-article-1").addEventListener("click", function () {
         window.open("https://www.morningstar.com/articles/878449/how-to-escape-from-a-lousy-health-savings-account", "_blank");
     });
+
+    $(".play-video").magnificPopup({
+        type: 'iframe',
+        
+    });
 });
 

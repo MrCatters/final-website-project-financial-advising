@@ -5,9 +5,15 @@
         <title>NC Financial Planning | Articles</title>
         <link rel="stylesheet" href="articles.css">
         <link rel="stylesheet" href="elements.css">
+
         <!-- normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css -->
         <link rel="stylesheet" href="normalize.css">
+
         <script src="./jquery-3.6.1.min.js"></script>
+
+        <script src="./magnific/magnific.js"></script>
+        <link rel="stylesheet" href="./magnific/magnific.css">
+
         <script src="elements.js"></script>
         <script src="articles.js"></script>
     </head>
@@ -59,9 +65,11 @@
                     Please see the
                     video to the right, "tuning out the noise.
                 </span>
-                <video controls>
-                    <source src="./videos/turning_out_the_noise.mp4">
-                </video>
+                <div class="image-div">
+                    <img id="turn-out-noise-image" class="play-video" href="https://www.youtube-nocookie.com/embed/wAlmkOQ-ips" src="./images/tuning-out-the-noise.png" alt="video image preview">
+                    <img id="play-button-image" class="play-video" href="https://www.youtube-nocookie.com/embed/wAlmkOQ-ips" src="./images/play-button.png" alt="play button">
+                    <div id="video-popup" class="mfp-hide"> </div>
+                </div>
             </span>
         </span>
         <!-- Footer that is injected with jQuery and footer.html-->
