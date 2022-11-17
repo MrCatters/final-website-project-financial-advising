@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("/images/lighthouseCropped.png");
+    background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("../images/lighthouseCropped.png");
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px;
