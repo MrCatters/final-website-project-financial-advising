@@ -15,7 +15,7 @@
 /* Italicizes the quote.*/
 .statistics>span:nth-child(2) {
     grid-column: 7 / span 7;
-    grid-row: 1 / span 6;
+    grid-row: 3;
     font-size: 30px;
     font-style: italic;
     align-self: center;
@@ -23,8 +23,8 @@
 
 /* The source link for the quote.*/
 .statistics>a:nth-child(3) {
-    grid-column: 7;
-    grid-row: 5;
+    grid-column: 7 / span 7;
+    grid-row: 4;
     font-size: 30px;
     font-style: italic;
 }
