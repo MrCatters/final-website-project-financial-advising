@@ -1,4 +1,55 @@
-#nav-links > li {
-    background: rgb(250, 5, 5);
-    background: linear-gradient(90deg, rgba(250, 5, 5, 1) 0%, rgba(255, 255, 255, 1) 100%);
+/* Sets the formatting of the nav bar */
+nav {
+    display: flex;
+    background-color: #ffffff;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sets the formatting of the nav bar links */
+nav > a {
+    display: inline;
+    padding: 0 1rem;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+nav > div:not(#about-drop-down-content) {
+    display: inline;
+    padding: 0 1rem;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 50px;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+/* Sets the formatting of the image on the nav bar. */
+#logo {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+#about-drop-down-content {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    background: white;
+    margin-top: 208px;
+    margin-left: 706px;
+}
+
+#about-drop-down-content > a{
+    padding: 15px;
+}
+
+#chevron {
+    position: relative;
+    max-height: 20px;
+    right: 40px;
+    pointer-events : none;
 }

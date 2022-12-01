@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="./nav.css">
+<link rel="stylesheet" href="/nav/nav.css">
+<script src="/nav/nav.js"></script>
+
 <nav>
-    <!-- Image on top of the navigation bar. -->
-    <img src="../images/cias-logo.png" alt="Capital Investment Advisory Services
-        Logo">
-    <!-- Links for the navigation bar. -->
-    <ul id="nav-links">
-        <li><a href="../index/index.html">Home</a></li>
-        <li><a href="../faq/faq.html">FAQ</a></li>
-        <li><a href="../articles/articles.html">Articles</a></li>
-        <li><a href="../advisor-compensation/advisor-compensation.html">Advisor Compensation</a></li>
-        <li><a href="../planning-process/planning-process.html">Planning Process</a></li>
-        <li><a href="../investment_strategies/investment_strategies.html">Investment Strategies</a></li>
-        <li><a href="https://www.netxinvestor.com/web/netxinvestor/login">Client Account Access</a></li>
-    </ul>
+    <img src="../images/cias-logo.png" id="logo" alt="Capital Investment Advisory Services Logo">
+    <a href="../index/index.html">Home</a>
+    <!-- Drop down menu for the about section. -->
+    <a href="../faq/faq.html">FAQ</a>
+    <a href="../articles/articles.html">Articles</a>
+    <a href="../stock_viewer/stock_viewer.html">Stock Viewer</a>
+    <a href="https://www.netxinvestor.com/web/netxinvestor/login">Client Account Access</a>
+    <div id = "about-drop-down">
+        About
+    </div>
+    <img src="../images/chevron-down.png" id="chevron" alt="Chevron Down">
+    <div id="about-drop-down-content">
+        <a href="../advisor-compensation/advisor-compensation.html">Advisor Compensation</a>
+        <a href="../planning-process/planning-process.html">Planning Process</a>
+        <a href="../investment_strategies/investment_strategies.html">Investment Strategies</a>
+    </div>
 </nav>
+

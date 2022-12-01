@@ -6,29 +6,6 @@ body {
     min-width: 1000px;
 }
 
-/* Sets the formatting of the nav bar */
-nav {
-    display: flex;
-    background-color: #ffffff;
-    height: 80px;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Sets the formatting of the nav bar links */
-nav li {
-    display: inline-block;
-    justify-content: space-between;
-    padding: 0 1rem;
-    font-size: 20px;
-}
-
-/* Sets the formatting of the image on the nav bar. */
-nav>img {
-    max-height: 90%;
-    max-width: 90%;
-}
-
 /* Place footer at bottom of page */
 .footer {
     position: relative;
