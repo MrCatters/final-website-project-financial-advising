@@ -19,10 +19,9 @@
     position: absolute;
     color: white;
     top: 170px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 60px;
     white-space: nowrap;
+    min-width: 250px;
 }
 
 /* Subtext under the client's name. */
@@ -30,10 +29,9 @@
     position: absolute;
     color: white;
     top: 250px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 25px;
     white-space: nowrap;
+    min-width: 250px;
 }
 
 /* The button on the background picture. */
@@ -154,7 +152,7 @@ span.information-grid>a {
 
 /* Positions the first paragraph in the third section. */
 .section-grid.schedule>span:nth-child(4) {
-    grid-column: 5 / 11;
+    grid-column: 5 / 8;
     grid-row: 3;
 }
 
@@ -171,7 +169,7 @@ span.information-grid>a {
 
 /* Positions the second paragraph in the third section. */
 .section-grid.schedule>span:nth-child(6) {
-    grid-column: 5 / 11;
+    grid-column: 5 / 9;
     grid-row: 5;
     max-width: 500px;
     margin-top: 15px;

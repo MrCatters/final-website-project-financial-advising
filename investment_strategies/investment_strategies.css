@@ -1,7 +1,3 @@
-.peity {
-    height: 100%;
-    width: 100%;
-}
 
 #investment-strategies {
     display: flex;
@@ -29,10 +25,6 @@
     max-width: 1200px;
 }
 
-#investment-strategies > .peity {
-    margin-top: 40px;
-}
-
 #investment-strategies > #investment-types {
     display: grid;
     grid-template-rows: 90px 90px;
@@ -50,20 +42,7 @@
     width: 240px !important;
 }
 
-#investment-types > #types > span{
-    margin-right: 10px;
-    grid-row: 2;
-}
-
-#investment-types > .peity {
-    grid-row: 1;
-    width: 10px;
-    height: 90px;
-}
-
-#investment-strategies > .paragraphs > span {
-    display: inline-block;
-    font-size: large;
-    margin-top: 30px;
-    max-width: 1200px;
+.peity {
+    height: 100%;
+    width: 100%;
 }

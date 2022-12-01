@@ -1,0 +1,4 @@
+#nav-links > li {
+    background: rgb(250, 5, 5);
+    background: linear-gradient(90deg, rgba(250, 5, 5, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
