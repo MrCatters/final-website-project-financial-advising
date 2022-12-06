@@ -1,3 +1,29 @@
+.top-picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("../images/lighthouseCropped.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    background-size: cover;
+}
+
+/* Sets the formatting of the header on top of the image. */
+.top-picture > span {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#sub-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
 
 #content {
     display: flex;
@@ -5,12 +31,12 @@
     align-items: center;
 }
 
-#content > #title {
+#content>#title {
     font-size: 40px;
     margin-top: 20px;
 }
 
-#content > #sub-title {
+#content>#sub-title {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -21,30 +47,28 @@
     max-width: 900px;
 }
 
-#paragraphs > span{
+#paragraphs>span {
     display: inline-block;
     font-size: large;
     margin-top: 30px;
 }
 
-#paragraphs > span:nth-last-child(-n+6){
+#paragraphs>span:nth-last-child(-n+6) {
     margin-top: 0px;
     font-size: small;
 }
 
-#paragraphs > span:nth-last-child(-n+6){
+#paragraphs>span:nth-last-child(-n+6) {
     margin-top: 0px;
     font-size: small;
 }
 
-#paragraphs > span:nth-last-child(5){
+#paragraphs>span:nth-last-child(5) {
     margin-top: 30px;
     font-size: small;
 }
 
-#paragraphs > span:nth-last-child(6){
+#paragraphs>span:nth-last-child(6) {
     margin-top: 90px;
     font-size: small;
 }
-
-

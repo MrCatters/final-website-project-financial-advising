@@ -1,0 +1,22 @@
+{
+    "1": {
+        "question": "What is your account minimum?",
+        "answer": "$100,000"
+    },
+    "2": {
+        "question": "Where is my money held?",
+        "answer": "Pershing, LLC is the asset custodian for Capital Investment Companies. This is where all investments are held. Pershing, LLC is a wholly owned subsidiary of the Bank of New York Mellon Corporation (Symbol: BNY). Pershing is a member of FINRA, SEC, and SIPC. Please visit www.pershing.com/about/pershing-at-a-glance for more information"
+    },
+    "3": {
+        "question": "What should I expect when creating a financial plan?",
+        "answer": "A full comprehensive plan discussing first and foremost what current topics are important to you. My plan's are fairly simple and easy to understand. My plans are not 80 to 120 pages with 6 or 7 modulels being covered all at one time, unless it is absolutlley necessary. Rather, I focus on what is important to you (retirement, college savings, second home purchase) and show the likelyhood of you being able to obtain these goals. I am able to cover this in 20 to 30 pages. I then come back and discuss other topicis such as insurance, that may not be highest on the priority list, when we first engage."
+    },
+    "4": {
+        "question": "Does your advisory fee cover the cost of financial planning and other items?",
+        "answer": "My fees are comprehensive and include financial and goal planning, along with ongoing advice. If a third party asset manager or other products such as mutual funds or ETF's are implemented, there are costs associated with these in addition to the quarterly advisory fee."
+    },
+    "5": {
+        "question": "Do you build custom investment portfolios for your clients?",
+        "answer": "Please visit my discussion on <a href='../investment_strategies/investment_strategies.html'>Investment Strategys</a>."
+    }
+}

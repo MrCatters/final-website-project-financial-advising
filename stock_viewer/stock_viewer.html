@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NC Financial Planning | Stock Viewer</title>
+        <link rel="stylesheet" href="../stock_viewer/stock_viewer.css">
+        <link rel="stylesheet" href="../elements/elements.css">
+
+        <!-- normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css -->
+        <link rel="stylesheet" href="../normalize/normalize.css">
+
+        <script src="../jquery-ui-1.12.1.custom/jquery-3.6.1.min.js"></script>
+
+        <script src="../elements/elements.js"></script>
+        <script src="../stock_viewer/stock_viewer.js"></script>
+        
+        <script src="../anychart/node_modules/anychart/dist/js/anychart-base.min.js"></script>
+        <script src="../anychart/node_modules/anychart/dist/js/anychart-bundle.min.js"></script>
+        <script src="../anychart/node_modules/anychart-jquery/dist/anychart-jquery.min.js"></script>
+
+        <link rel="stylesheet" href="../anychart/node_modules/anychart/dist/css/anychart-ui.min.css">
+        <link rel="stylesheet" href="../anychart/node_modules/anychart/dist/fonts/css/anychart-font.min.css">
+
+    </head>
+    <body>
+        <!-- Navigation bar that is injected with jQuery and nav.html-->
+        <span class="nav-bar"></span>
+        <!--Image that will have the header text on top of it.-->
+        <span class="top-picture">
+            <span>Stock Viewer</span>
+        </span>
+        <div id="stock-forum">
+            <div>Enter a stock below for intraday values:</div>
+            <input type="text" id="stock-input" placeholder="Enter a stock symbol">
+            <input type="button" id="stock-button" value="Submit">
+        </div>
+            <div id="container">
+        </div>
+        <!-- Footer that is injected with jQuery and footer.html-->
+        <!-- IGNORE STRAY FOOTER ERROR-->
+        <footer class="footer"></footer>
+    </body>
+</html>

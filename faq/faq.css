@@ -6,7 +6,7 @@
   background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("../images/lighthouseCropped.png");
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 300px;
+  height: 250px;
   background-size: cover;
 }
 
@@ -19,13 +19,24 @@
 }
 
 /* Styles the dropdown wrapper. */
- #accordion-container {
+#accordion-container {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-#accordian div {
+#accordion div {
   max-width: 40em;
+}
+
+#accordion > h3 {
+  font-size: 20px;
+}
+
+#accordion > div {
+  font-size: 16px;
+  color: inherit;
+  background-color: inherit !important;
+  background: inherit;
 }
 

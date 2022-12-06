@@ -1,3 +1,23 @@
+.top-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("../images/lighthouseCropped.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    background-size: cover;
+}
+
+/* Sets the formatting of the header on top of the image. */
+.top-picture > span {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
 /* The first section of the page */
 /* Handshake image on left.*/
 .hand-shake-image {
@@ -75,7 +95,7 @@
 
 /* The third section of the page talking about the process. */
 /* Sets the first span as the title.*/
-.process-flex > span:nth-child(1) {
+.process-flex>span:nth-child(1) {
     display: block;
     font-size: 30px;
     margin-bottom: 20px;
@@ -104,19 +124,19 @@
 }
 
 /* Places the image first in the grid. */
-.process-container > img:nth-child(1) {
+.process-container>img:nth-child(1) {
     grid-row: 2;
 }
 
 /* Places the number in the middle. */
-.process-container > span:nth-child(2) {
+.process-container>span:nth-child(2) {
     grid-row: 3;
     font-size: 24px;
     font-weight: bold;
 }
 
 /* Places the text last. */
-.process-container > span:nth-child(3) {
+.process-container>span:nth-child(3) {
     grid-row: 4;
     font-size: 20px;
 }
