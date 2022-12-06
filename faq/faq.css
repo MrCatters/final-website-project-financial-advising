@@ -25,18 +25,12 @@
   align-content: center;
 }
 
+/* Sets the formatting of the answer below the question. */
 #accordion div {
   max-width: 40em;
 }
 
+/* Sets the formatting of the question. */
 #accordion > h3 {
   font-size: 20px;
 }
-
-#accordion > div {
-  font-size: 16px;
-  color: inherit;
-  background-color: inherit !important;
-  background: inherit;
-}
-

@@ -67,6 +67,7 @@ span {
     width: 600px;
 }
 
+/* Image of the video that can be clicked on to display an iframe video */
 .image-div #turn-out-noise-image {
     position: relative;
     width: 600px;
@@ -75,7 +76,7 @@ span {
     cursor: pointer;
 }
 
-
+/* Play button image that is overlaid on the video image */
 .image-div #play-button-image {
     position: relative;
     width: 100px;

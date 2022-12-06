@@ -1,7 +1,4 @@
-'use strict'
-
 $(document).ready(function () {
-
     // Manages color changes for both 'li' and 'a' elements at once.
     $("nav > a, nav > div:not(#about-drop-down-content), div > a").mouseover(function () { 
         $(this).css(
@@ -21,14 +18,15 @@ $(document).ready(function () {
     });
 
     $("#about-drop-down, #about-drop-down-content").mouseover(function () {
+        /* Make the 'About' drop-down menu visible. */
         $("#about-drop-down-content").css({
             "visibility": "visible"
         });
 
-        // rotate #chevron to 180 degrees
+        // Rotate #chevron to 180 degrees.
         $("#chevron").stop();
         $("#chevron").animate(
-            { deg: 180 },
+            { deg: 0 },
             {
                 duration: 300,
                 step: function(now) {
@@ -41,10 +39,9 @@ $(document).ready(function () {
             "visibility": "hidden"
             }
         );
-
         $("#chevron").stop();
         $("#chevron").animate(
-            { deg: 360},
+            { deg: 180},
             {
                 duration: 300,
                 step: function(now) {

@@ -13,7 +13,8 @@
 
         <script src="../elements/elements.js"></script>
         <script src="../stock_viewer/stock_viewer.js"></script>
-        
+
+        <!-- Loads needed modules for anychart.-->
         <script src="../anychart/node_modules/anychart/dist/js/anychart-base.min.js"></script>
         <script src="../anychart/node_modules/anychart/dist/js/anychart-bundle.min.js"></script>
         <script src="../anychart/node_modules/anychart-jquery/dist/anychart-jquery.min.js"></script>
@@ -29,13 +30,14 @@
         <span class="top-picture">
             <span>Stock Viewer</span>
         </span>
+        <!--Form that will be used to get the stock symbol from the user.-->
         <div id="stock-forum">
             <div>Enter a stock below for intraday values:</div>
             <input type="text" id="stock-input" placeholder="Enter a stock symbol">
             <input type="button" id="stock-button" value="Submit">
         </div>
-            <div id="container">
-        </div>
+        <!--Div that will hold the chart.-->
+        <div id="container"></div>
         <!-- Footer that is injected with jQuery and footer.html-->
         <!-- IGNORE STRAY FOOTER ERROR-->
         <footer class="footer"></footer>

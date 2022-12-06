@@ -17,7 +17,8 @@ nav > a {
     width: fit-content;
 }
 
-nav > div:not(#about-drop-down-content) {
+/* Applies formatting only to the About link */
+#about-drop-down {
     display: inline;
     padding: 0 1rem;
     font-size: 20px;
@@ -33,6 +34,7 @@ nav > div:not(#about-drop-down-content) {
     max-width: 90%;
 }
 
+/* Sets the formatting of the drop down menu. */
 #about-drop-down-content {
     position: absolute;
     display: flex;
@@ -43,13 +45,16 @@ nav > div:not(#about-drop-down-content) {
     margin-left: 850px;
 }
 
+/* Pads out the contents of the drop down menu. */
 #about-drop-down-content > a{
     padding: 15px;
 }
 
+/* Sets the formatting of the chevron. */
 #chevron {
     position: relative;
     max-height: 20px;
     right: 40px;
     pointer-events : none;
+    transform: rotate(180deg);
 }
