@@ -9,5 +9,13 @@ $(document).ready(function () {
     $(".play-video").magnificPopup({
         type: 'iframe',
     });
+
+    /* https://stackoverflow.com/questions/13637223/how-do-you-make-a-div-tabbable */
+    /* Makes the tabbable div clickable with the space or enter key */
+    $(document).on('keydown', '#turn-out-noise-image', function(e){
+        if (e.keyCode == 13 || e.keyCode == 32) {
+            $(this).click();
+        }
+    });
 });
 

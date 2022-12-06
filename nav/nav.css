@@ -26,6 +26,7 @@ nav > a {
     padding-right: 50px;
     text-decoration: underline;
     width: fit-content;
+    cursor: default !important;
 }
 
 /* Sets the formatting of the image on the nav bar. */
