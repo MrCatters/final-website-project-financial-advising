@@ -30,7 +30,7 @@ $(document).ready(function () {
         $("#chevron").animate(
             { deg: 180 },
             {
-                duration: 500,
+                duration: 300,
                 step: function(now) {
                 $(this).css({ transform: 'rotateX(' + now + 'deg)' });
             }
@@ -46,7 +46,7 @@ $(document).ready(function () {
         $("#chevron").animate(
             { deg: 360},
             {
-                duration: 500,
+                duration: 300,
                 step: function(now) {
                 $(this).css({ transform: 'rotateX(' + now + 'deg)' });
             }
