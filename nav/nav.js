@@ -24,11 +24,32 @@ $(document).ready(function () {
         $("#about-drop-down-content").css({
             "visibility": "visible"
         });
+
+        // rotate #chevron to 180 degrees
+        $("#chevron").stop();
+        $("#chevron").animate(
+            { deg: 180 },
+            {
+                duration: 500,
+                step: function(now) {
+                $(this).css({ transform: 'rotateX(' + now + 'deg)' });
+            }
+        });
     }).mouseout(function () {
         $("#about-drop-down-content").css(
             {
             "visibility": "hidden"
             }
-        );  
+        );
+
+        $("#chevron").stop();
+        $("#chevron").animate(
+            { deg: 360},
+            {
+                duration: 500,
+                step: function(now) {
+                $(this).css({ transform: 'rotateX(' + now + 'deg)' });
+            }
+        });
     });
 });
