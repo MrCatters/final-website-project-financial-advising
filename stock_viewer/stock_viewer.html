@@ -31,11 +31,12 @@
             <span>Stock Viewer</span>
         </span>
         <!--Form that will be used to get the stock symbol from the user.-->
-        <div id="stock-forum">
-            <div>Enter a stock below for intraday values:</div>
-            <input type="text" id="stock-input" placeholder="Enter a stock symbol">
-            <input type="button" id="stock-button" value="Submit">
-        </div>
+            <form id="stock-forum">
+                <div>Enter a stock below for intraday values:</div>
+                <input type="text" id="stock-input" placeholder="Enter a stock symbol">
+                <input type="submit" id="stock-button" value="Submit">
+                <input type="submit" id="stock-button" style="display: none">
+            </form>
         <!--Div that will hold the chart.-->
         <div id="container"></div>
         <!-- Footer that is injected with jQuery and footer.html-->

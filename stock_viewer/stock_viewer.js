@@ -57,5 +57,12 @@ function formGraph(stock) {
         chart.yAxis().title('Price');
         chart.xAxis().title('Time');
         chart.animation(true);
+        
+        //change the color of the text to black
+        chart.title().fontColor('black');
+        chart.yAxis().title().fontColor('black');
+        chart.xAxis().title().fontColor('black');
+        chart.xAxis().labels().fontColor('black');
+        chart.yAxis().labels().fontColor('black');
     });
 };
