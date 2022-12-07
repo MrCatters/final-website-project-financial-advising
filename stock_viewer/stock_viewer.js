@@ -1,6 +1,6 @@
 $(document).ready(function () {
     /* On button click, get the stock symbol from the input field and pass it to the formGraph function. */
-    $("#stock-button").click(function (e) {
+    $("input[type = 'submit']").click(function (e) {
         e.preventDefault();
         var stock = $("#stock-input").val();
         formGraph(stock);

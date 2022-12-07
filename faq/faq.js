@@ -16,23 +16,27 @@ function getFaqData(_callback) {
             $div.append('<div>' + val.answer + '</div>');
         });
         $('#accordion-container').append($div);
+    })
+    .done(function () {
+        // Calls the callback function.
+        // Timeout needed to allow the accordion to be created.
+        _callback();
+    })
+    .fail(function () {
+        // Error handling.
+        alert("Error: Could not get faq data.");
     });
-    // Calls the callback function.
-    _callback();
 }
 
 // Sets the accordion into the page.
 function setAccordion() {
-    // Timeout needed to allow the accordion to be created.
-    setTimeout(function () {
-        $("#accordion").accordion({
-            active: false,
-            collapsible: true,
-            icons: {
-                "header": "ui-icon-triangle-1-e",
-                "activeHeader": "ui-icon-triangle-1-s"
-            },
-            heightStyle: "content"
-        });
-    }, 100);
+    $("#accordion").accordion({
+        active: false,
+        collapsible: true,
+        icons: {
+            "header": "ui-icon-triangle-1-e",
+            "activeHeader": "ui-icon-triangle-1-s"
+        },
+        heightStyle: "content"
+    });
 };
